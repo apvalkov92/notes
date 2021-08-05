@@ -1,11 +1,21 @@
 <template>
-  <div id="app"></div>
+  <div id="app">
+    <div class="container">
+      <div class="row">
+        <notes />
+      </div>
+    </div>
+  </div>
 </template>
 
 <script>
+import Notes from './components/Notes'
 
 export default {
-  name: 'App'
+  name: 'App',
+  components: {
+    Notes
+  }
 }
 </script>
 
