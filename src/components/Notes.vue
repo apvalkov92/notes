@@ -14,7 +14,7 @@
 <script>
 import Note from './Note'
 import NoteForm from './NoteForm'
-import { NotesRepository } from "../helpers/NotesRepository"
+import { NotesRepository } from "../repositories/NotesRepository"
 
 export default {
   name: "Notes",
